@@ -7,7 +7,7 @@ We can use the power of Seq2Seq generative models and broder objective like summ
 We used huggingface [summarization solution](https://github.com/huggingface/transformers/tree/main/examples/pytorch/summarization) as the base and created wrappers & pre-processing modules on top of it to create the solution.
 
 The following steps areThe following steps are followed to train models for Table to Insights/Table to summary objective and the same is demonstrated in the [solution notebook]
-(https://github.com/krishika-r/summarization_nlp/Text_table_summarization.ipynb)
+(https://github.com/krishika-r/summarization_nlp/blob/main/Text_table_summarization.ipynb)
     1.Pre-process the tables to flatten text and dump it in required file format (json/csv). The entire table can be converted to flatten text or specifically highlighted cells.
     2.Create training data with flatten text as input and insight/summary as labels.
     3.Train Seq2Seq pre-trained models with summarization objective.
