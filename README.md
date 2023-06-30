@@ -27,7 +27,7 @@ ToTTo introduces a controlled generation task in which a given Wikipedia table w
 To read more on ToTTo, visit [ToTTo: A Controlled Table-to-Text Generation](https://ai.googleblog.com/2021/01/totto-controlled-table-to-text.html)
 
 ## Dataset
-To carry out different experiments based on table-to-insight or table-to-summary objectives we can use a similar approach as Google ToTTo to flatten the table into free-flowing text and deal with it similarly to Seq2Seq objectives. We have included a pre-processing [code](https://github.com/krishika-r/summarization_nlp/blob/main/summarization_nlp/Lattice) to process tables to flattened text which is based on [Lattice Repo](https://github.com/luka-group/Lattice/tree/main).
+To carry out different experiments based on table-to-insight or table-to-summary objectives we can use a similar approach as Google ToTTo to flatten the table into free-flowing text and deal with it similarly to Seq2Seq objectives. We have included a pre-processing [code](https://github.com/krishika-r/summarization_nlp/blob/main/Lattice) to process tables to flattened text which is based on [Lattice Repo](https://github.com/luka-group/Lattice/tree/main).
 
 [**Google ToTTo Dataset**](https://github.com/google-research-datasets/totto)
 
