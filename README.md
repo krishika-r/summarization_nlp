@@ -20,14 +20,14 @@ The following steps are followed to train models for the objective and the same 
 
 ToTTo introduces a controlled generation task in which a given Wikipedia table with a set of selected cells is used as the source material for the task of producing a single sentence description that summarizes the cell contents in the context of the table. The example below demonstrates some of the many challenges posed by the task, such as numerical reasoning, a large open-domain vocabulary, and varied table structure.
 
-![totto_table_to_text_example]((https://github.com/krishika-r/summarization_nlp/blob/main/totto_table_to_text_dataset_example.jpg)
+![totto_table_to_text_example](https://github.com/krishika-r/summarization_nlp/blob/main/totto_table_to_text_dataset_example.jpg)
 
 *Example in the ToTTo dataset, where given the source table and set of highlighted cells (left), the goal is to generate a one-sentence description, such as the “target sentence” (right). Note that generating the target sentence would require numerical inference (eleven NFL seasons) and an understanding of the NFL domain.*
 
 To read more on ToTTo, visit [ToTTo: A Controlled Table-to-Text Generation](https://ai.googleblog.com/2021/01/totto-controlled-table-to-text.html)
 
 ## Dataset
-To carry out different experiments based on table-to-insight or table-to-summary objectives we can use a similar approach as Google ToTTo to flatten the table into free-flowing text and deal with it similarly to Seq2Seq objectives. We have included a pre-processing [code](https://github.com/luka-group/Lattice/tree/main/summarization_nlp/Lattice) to process tables to flattened text which is based on [Lattice Repo](https://github.com/luka-group/Lattice/tree/main).
+To carry out different experiments based on table-to-insight or table-to-summary objectives we can use a similar approach as Google ToTTo to flatten the table into free-flowing text and deal with it similarly to Seq2Seq objectives. We have included a pre-processing [code](https://github.com/krishika-r/summarization_nlp/blob/main/summarization_nlp/Lattice) to process tables to flattened text which is based on [Lattice Repo](https://github.com/luka-group/Lattice/tree/main).
 
 [**Google ToTTo Dataset**](https://github.com/google-research-datasets/totto)
 
