@@ -14,7 +14,7 @@ The following steps are followed to train models for the objective and the same 
     1. Pre-process the tables to flatten text and dump it in the required file format (JSON/CSV). The entire table can be converted to flatten text or specifically highlighted cells.
     2. Create training data with flattened text as input and insight/summary as labels.
     3. Train Seq2Seq pre-trained models with summarization objective.
-    4.Evaluate model performance on metrics like **ROUGE-1, ROUGE-L, BLEU** and **Semantic similarity** scores
+    4. Evaluate model performance on metrics like **ROUGE-1, ROUGE-L, BLEU** and **Semantic similarity** scores
 
 ## Dataset:
 
@@ -45,6 +45,6 @@ To carry out different experiments based on table-to-insight or table-to-summary
 
 **Text to summary**
 
-    1.Create training data with text as input and insight/summary as labels.
-    2.Train Seq2Seq pre-trained models with summarization objective.
-    3.Evaluate model performance on metrics like **ROUGE-1, ROUGE-L, BLEU** and **Semantic similarity** scores
+    1. Create training data with text as input and insight/summary as labels.
+    2. Train Seq2Seq pre-trained models with summarization objective.
+    3. Evaluate model performance on metrics like **ROUGE-1, ROUGE-L, BLEU** and **Semantic similarity** scores
